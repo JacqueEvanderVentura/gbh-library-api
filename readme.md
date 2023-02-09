@@ -34,3 +34,7 @@ GET /book/123/page/2/html
 
 GET /book/456/page/3/text
 
+
+## Time used to complete test
+
+Around 2 hours in total, separated in different chunks of Feb 8 2023 and Feb 9 2023.
