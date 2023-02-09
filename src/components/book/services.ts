@@ -15,7 +15,7 @@ export const getAllBook = async (): Promise<IBook[]> => {
 
 export const createBook = async (
   book: BOOK,
-  bookText: string
+  bookText: string,
 ): Promise<IBook> => {
   const books = new Book(book);
   const plainText = bookText.split(" ");
@@ -37,7 +37,6 @@ export const createBook = async (
     await booksPages.save();
     count++;
   }
-	books._id = books._id + 1
   books.bookPage = booksPagesId;
   await books.save();
 

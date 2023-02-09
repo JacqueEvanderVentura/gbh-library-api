@@ -3,10 +3,10 @@ import controller from "./controller";
 const routes: Router = Router();
 
 
-routes.route('/')
+routes.route('/books')
 		.get(controller.getAll)
 		.post(controller.create)
 
-routes.route("/:bookId/page/:page/:type").get(controller.getAllPages);
+routes.route("/book/:bookId/page/:page/:type").get(controller.getAllPages);
 
 export default routes;

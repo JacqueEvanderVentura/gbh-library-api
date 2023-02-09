@@ -3,6 +3,6 @@ const router: Router = Router();
 import book from './components/book/router'
 
 
-router.use('/book',book)
+router.use('/',book)
 
 export default router;
