@@ -23,7 +23,7 @@ This route retrieves a specific page from a book.
 - `type`: The format of the page to retrieve, either `html` or `text`.
 
 
-## Examples
+### Examples
 
 #### Get a specific page in HTML format
 
